@@ -1,0 +1,4 @@
+adminAddress=rafal@huanan.pl
+smtpAddress=smtp.zenbox.pl
+smtpLogin=powiadomienia@huanan.pl
+smtpPassword=P0w1adom!enia
