@@ -9,7 +9,6 @@ import org.simplejavamail.api.email.Email;
 import org.simplejavamail.api.mailer.Mailer;
 import org.simplejavamail.email.EmailBuilder;
 import org.simplejavamail.mailer.MailerBuilder;
-import org.slf4j.
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -53,7 +52,7 @@ public class Main {
 
             if (freeSpace < availableSpaceThreshold / 1000) {
 
-                System.out.println(("Na partycji " + driveLetter + " pozostało " + freeSpaceMB + " MB wolnego miejsca.\n"));
+                System.out.println("Na partycji " + driveLetter + " pozostało " + freeSpaceMB + " MB wolnego miejsca.\n");
 
                 Email email = EmailBuilder.startingBlank()
                         .from("HUANAN STORAGE MONITOR", smtpUsername)
